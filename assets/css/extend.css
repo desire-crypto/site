@@ -1,0 +1,27 @@
+.app-sidebar-content {
+    overflow-x: visible !important;
+}
+
+.main-page .app-header {
+    display: flex;
+    justify-content: center;
+}
+
+.main-page .app-header .brand {
+    display: flex;
+    justify-content: center;
+}
+
+.main-page .brand-text {
+    font-size: 1.5rem;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+@media (max-width: 767.98px) {
+    .app-header .brand .brand-logo {
+        display: flex;
+    }
+}
